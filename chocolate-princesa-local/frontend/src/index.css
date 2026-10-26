@@ -1,0 +1,55 @@
+/**
+ * ====================================================================
+ * PROYECTO: Sistema de Gestión y Distribución - "Chocolate Princesa" (Santa Cruz, Bolivia)
+ * PROPIETARIO / ESTUDIANTE: Dennis Yohan Martinez Illescas
+ * CÓDIGO / REGISTRO: Dennis Yohan Martinez Illescas | REG: 219034821
+ * ENTORNO: 100% Local (CSS Global Styles)
+ * ====================================================================
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FDF8F2;
+  color: #1A0A03;
+  overflow-x: hidden;
+}
+
+/* Custom Gold & Chocolate Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF2E9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B89025;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8A4823;
+}
+
+/* Soft golden shimmer animation */
+@keyframes shimmerGold {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F59E0B 50%, #B89025 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

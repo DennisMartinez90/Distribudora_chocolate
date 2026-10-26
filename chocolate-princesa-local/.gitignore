@@ -1,0 +1,17 @@
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env.local
+backend/chocolate_princesa.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

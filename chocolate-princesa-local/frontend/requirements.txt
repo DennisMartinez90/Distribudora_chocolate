@@ -1,0 +1,15 @@
+# ====================================================================
+# PROYECTO: Sistema de Gestión y Distribución - "Chocolate Princesa" (Santa Cruz, Bolivia)
+# PROPIETARIO / ESTUDIANTE: Dennis Yohan Martinez Illescas
+# CÓDIGO / REGISTRO: Dennis Yohan Martinez Illescas | REG: 219034821
+# ENTORNO: 100% Local
+# ====================================================================
+
+fastapi>=0.110.0
+uvicorn>=0.28.0
+sqlalchemy>=2.0.28
+pydantic>=2.6.4
+python-dotenv>=1.0.1
+requests>=2.31.0
+psycopg[binary]>=3.1.0
+psycopg2-binary>=2.9.9
